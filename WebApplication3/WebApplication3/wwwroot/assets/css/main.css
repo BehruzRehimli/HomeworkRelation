@@ -153,6 +153,16 @@ section {
     display: inline-block;
   }
 }
+.detail-content {
+    background-color: rgb(238, 238, 238);
+    padding: 10px 0;
+}
+.header-detail{
+    font-family: var(--font-primary);
+    font-weight:900;
+    letter-spacing:4px;
+    font-size:3rem
+}
 
 /*--------------------------------------------------------------
 # Scroll top button

@@ -5,19 +5,21 @@
 
 
 <div class="text-center">
-    <h1 style="font-weight:800;font-style:italic;text-decoration:underline" class="my-5 pt-5">Chef Details</h1>
+    <h1 class="my-5 pt-5 header-detail" style="display:inline-block">Chef <h1 class="ms-3 header-detail" style="color:red;display:inline-block">Details</h1></h1>
 
-    <img style="width:450px;border-radius:8px;box-shadow:" src="~/assets/img/chefs/chefs-@Model.Id+.jpg"/>
-    <h3 class="mt-5" style="font-weight:700">@Model.Name</h3>
-    <h5 style="font-style:italic;color:grey;margin-top:20px">@Model.profession.Name</h5>
-    <div class="d-flex justify-content-center align-Models-center">
-    <p class="psx-5 ms-5" style="font-size:22px;width:50%;margin-top:30px;margin-bottom:50px">@Model.Info</p>
+    <div class="detail-content">
+        <img style="width:450px;border-radius:8px;border:1px solid red" src="~/assets/img/chefs/chefs-@Model.Id+.jpg" />
+        <h3 class="mt-5" style="font-weight:700">@Model.Name</h3>
+        <h5 style="font-style:italic;color:grey;margin-top:20px">@Model.profession.Name</h5>
+        <div class="d-flex justify-content-center align-Models-center">
+            <p class="psx-5 ms-5" style="font-size:22px;width:50%;margin-top:30px;margin-bottom:50px">@Model.Info</p>
 
-    </div>
+        </div>
         <div class="mb-5">
-                                                     <a  href="@Model.Media.TwitterUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-twitter"></i></a>
-                                                    <a href="@Model.Media.FbUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-facebook"></i></a>
-                                                    <a href="@Model.Media.IgUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-instagram"></i></a>
-                                                    <a href="@Model.Media.InUrl"><i style="color:black;font-size:1.5rem" class="bi bi-linkedin"></i></a>
+            <a href="@Model.Media.TwitterUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-twitter"></i></a>
+            <a href="@Model.Media.FbUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-facebook"></i></a>
+            <a href="@Model.Media.IgUrl"><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-instagram"></i></a>
+            <a href="@Model.Media.InUrl"><i style="color:black;font-size:1.5rem" class="bi bi-linkedin"></i></a>
+        </div>
     </div>
 </div>

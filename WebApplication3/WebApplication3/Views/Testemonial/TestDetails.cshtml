@@ -1,0 +1,26 @@
+﻿@model Testemonial
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="text-center">
+    <h1 class="my-5 pt-5 header-detail" style="display:inline-block">Testemonial <h1 class="ms-3 header-detail" style="color:red;display:inline-block">Details</h1></h1>
+
+    <div class="detail-content">
+        <img style="width:450px;border-radius:8px;border:1px solid red" src="~/assets/img/testimonials/testimonials-@Model.Id+.jpg" />
+
+        <h3 class="mt-5" style="font-weight:700">@Model.FirstName @Model.LastName</h3>
+        <h5 style="font-style:italic;color:grey;margin-top:20px">@Model.Profession.Name</h5>
+        <div class="d-flex justify-content-center align-Models-center">
+            <p class="psx-5 ms-5" style="font-size:22px;width:50%;margin-top:30px;margin-bottom:50px">@Model.About</p>
+
+        </div>
+        <div class="mb-5">
+            <a href=""><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-twitter"></i></a>
+            <a href=""><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-facebook"></i></a>
+            <a href=""><i style="color:black;font-size:1.5rem;margin-right:10px" class="bi bi-instagram"></i></a>
+            <a href=""><i style="color:black;font-size:1.5rem" class="bi bi-linkedin"></i></a>
+        </div>
+
+    </div>
+</div>

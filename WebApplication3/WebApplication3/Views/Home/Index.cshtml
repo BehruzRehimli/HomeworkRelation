@@ -529,20 +529,26 @@
                                         <div class="row gy-4 justify-content-center">
                                           <div class="col-lg-6">
                                             <div class="testimonial-content">
-                                              <p>
+                                        <a asp-controller="Testemonial" asp-action="TestDetails" asp-route-id="@item.Id">
+                                            <p style="color:black">
                                                 <i class="bi bi-quote quote-icon-left"></i>
-                                            @item.About
+                                                @item.About
                                                 <i class="bi bi-quote quote-icon-right"></i>
-                                              </p>
-                                              <h3>@item.FirstName @item.LastName</h3>
-                                              <h4>@item.Profession.Name</h4>
-                                              <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                              </div>
+                                            </p>
+                                            <h3 style="color:black">@item.FirstName @item.LastName</h3>
+                                            <h4 style="color:grey">@item.Profession.Name</h4>
+                                        </a>
+                                            <div class="stars">
+                                                <a asp-controller="Testemonial" asp-action="TestDetails" asp-route-id="@item.Id">
+
+                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></a>
+                                            </div>
                                             </div>
                                           </div>
                                           <div class="col-lg-2 text-center">
-                                            <img src="~/assets/img/testimonials/testimonials-@item.Id+.jpg" class="img-fluid testimonial-img" alt="@item.Id">
+                                    <a asp-controller="Testemonial" asp-action="TestDetails" asp-route-id="@item.Id">
+
+                                            <img src="~/assets/img/testimonials/testimonials-@item.Id+.jpg" class="img-fluid testimonial-img" alt="@item.Id"></a>
                                           </div>
                                         </div>
                                       </a>

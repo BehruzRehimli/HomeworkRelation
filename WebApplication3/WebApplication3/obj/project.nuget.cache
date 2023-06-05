@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G4phrEKt36mV2Vbiw2JtlpXh8NYm2fomVR6jJPI8niotvcNdM2Sui7cmRj0aJW808MKh4Fy4J+8WwbA1lQw+IA==",
+  "dgSpecHash": "nQUuV0CYnNCmykVZKBh3FQ0ngRy6WfPPykVLhckwBRoVCt0tm5dSx6HuqSS/hqSlcyoxG1qbpN+208fIo6HUng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ziya\\Desktop\\Tasks\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+  "projectFilePath": "C:\\Users\\Ziya\\Desktop\\Tasks\\HomeworkRelation\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ziya\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ziya\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
